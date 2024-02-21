@@ -88,10 +88,7 @@ const LanguageSelector = ({ type, handleLanguage }) => {
         {languages
           .filter((language) => language.key != selected)
           .map((language) => A(language))}
-        <a
-          href="find-more"
-          className="--link text-[13px] border-b-2 ml-7 py-2 block"
-        >
+        <a href="#" className="--link text-[13px] border-b-2 ml-7 py-2 block">
           Find more
         </a>
       </div>
@@ -100,17 +97,14 @@ const LanguageSelector = ({ type, handleLanguage }) => {
         <span className="flex items-center justify-start gap-2">
           <img
             src="./India.jpeg"
-            alt=""
+            alt="Indian Flag Icon"
             className="h-3 w-5 mr-1 rounded-[1px]"
           />
           <p className="w-full text-primary text-[13px]">
             You are shopping on Amazon.in
           </p>
         </span>
-        <a
-          href="change-country-region"
-          className="--link text-[13px] ml-7 py-2 block"
-        >
+        <a href="#" className="--link text-[13px] ml-7 py-2 block">
           Change country/region
         </a>
       </div>

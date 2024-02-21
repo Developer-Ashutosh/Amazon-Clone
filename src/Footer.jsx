@@ -111,7 +111,7 @@ const Footer = () => {
         <Button />
         <p className="text-[12px] w-[97%] border-b m-auto py-2">
           New Coustomer?{" "}
-          <a href="start-here" className="--link !text-[12px]">
+          <a href="#" className="--link !text-[12px]">
             Start here.
           </a>
         </p>
@@ -158,7 +158,7 @@ const Footer = () => {
         <div className="flex justify-center gap-4 flex-wrap">
           {countries.map((country, index) => (
             <a
-              href={country.toLowerCase().replaceAll(" ", "-")}
+              href="#"
               className="text-[13px] flex-wrap text-[#CCC] --underline"
               key={index}
             >
@@ -171,7 +171,7 @@ const Footer = () => {
       <section className="bg-quaternary w-full p-8 flex items-start justify-center flex-wrap gap-x-8 gap-y-4 m-auto">
         {topics.map((topic, index) => (
           <a
-            href={topic.primary.toLowerCase().replaceAll(" ", "-")}
+            href="#"
             className="text-[13px] text-white --underline w-40 text-center"
             key={index}
           >
@@ -187,11 +187,7 @@ const Footer = () => {
       <section className="bg-quaternary w-full text-center p-4">
         <div className="space-x-10">
           {last.map((topic, index) => (
-            <a
-              href={topic.toLowerCase().replaceAll(" ", "-")}
-              className="--underline text-[13px]"
-              key={index}
-            >
+            <a href="#" className="--underline text-[13px]" key={index}>
               {topic}
             </a>
           ))}

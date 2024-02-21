@@ -29,7 +29,7 @@ const Navbelt = () => {
       <div className="--border h-full flex items-end justify-center pb-4 px-1 group relative">
         <img
           src="./India.jpeg"
-          alt=""
+          alt="Indian Flag Icon "
           className="h-[1.05rem] w-6 mr-1 rounded-[1px]"
         />
         <span className="font-bold tracking-wider">{language.symbol}</span>

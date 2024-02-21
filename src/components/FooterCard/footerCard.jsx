@@ -8,7 +8,7 @@ const FooterCard = ({ title, topics }) => {
         {topics.map((topic, index) => (
           <li key={index}>
             <a
-              href={topic.toLowerCase().replaceAll(" ", "-")}
+              href="#"
               className="--underline text-sm text-[#c8cbcd] tracking-wide"
             >
               {topic}

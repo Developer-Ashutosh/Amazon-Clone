@@ -72,7 +72,7 @@ const SideBar = ({ isToggled, handleSideBarToggle }) => {
           <h2 className="text-[1.1rem] font-bold px-5 py-2 ">{e.title}</h2>
           {e.content.map((e, i) => (
             <a
-              href={e.toLowerCase().replaceAll(" ", "-")}
+              href="#"
               className="flex items-center justify-between cursor-pointer group hover:bg-[#F3F3F3] px-3.5 py-3 w-[94%] m-auto rounded transition-all"
               key={i}
             >

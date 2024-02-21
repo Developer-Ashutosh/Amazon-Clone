@@ -38,7 +38,7 @@ const SignIn = () => {
         <Button />
         <p className="text-[12px]">
           New Coustomer?{" "}
-          <a href={"start-here"} className="--link !text-[12px]">
+          <a href="#" className="--link !text-[12px]">
             Start here.
           </a>
         </p>
@@ -57,7 +57,7 @@ const SignIn = () => {
               {list.content.map((content, index) => (
                 <li key={index}>
                   <a
-                    href={content.toLowerCase().replaceAll(" ", "-")}
+                    href="#"
                     className="text-[#222] hover:text-linkHover --underline text-[13.5px] font-medium"
                   >
                     {content}
