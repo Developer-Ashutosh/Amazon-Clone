@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Ember;
+    src: url('/Ember.woff2');
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.--border {
+    @apply border border-transparent rounded hover:border-white cursor-pointer
+}
+
+.--underline {
+    @apply hover:underline
+}
+
+.--link {
+    @apply text-sm text-link hover:text-linkHover hover:underline
+}
+
+.hero::before {
+    background: linear-gradient(-180deg, rgba(234, 237, 237, 0), #E3E6E6);
+}
